@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <main class="main">
+      <section class="select-page recipients-details-page">
+        <div class="container">
+          <div class="select-page__head">
+            <div class="select-page__pagination">
+              <a class="select-page__back" href="./amount-shipment.html">Назад</a>
+              <div class="select-page__pagination-num">5/6</div>
+            </div>
+            <span class="translation-history__title text-3">
+              Данные получателя <br>
+              <span class="translation-history__name text-1">Введите данные
+                <span>получателя</span></span>
+            </span>
+          </div>
+          <div class="select-page__list recipients-details">
+            <div class="select-page__recipients-details recipients-details__item">
+              <span class="recipients-details__name">ФИО получателя</span>
+              <input class="recipients-details__input input-reset" type="text" placeholder="Анатольев Василий Дмитриевич">
+            </div>
+            <div class="select-page__recipients-details recipients-details__item">
+              <span class="recipients-details__name">Номер телефона</span>
+              <input class="recipients-details__input input-reset" type="tel" placeholder="+35 657 748 84 84">
+            </div>
+            <div class="select-page__recipients-details recipients-details__item">
+              <span class="recipients-details__name">Номер счета получателя</span>
+              <input class="recipients-details__input input-reset" type="text" placeholder="6564 8587574 7474 3737">
+            </div>
+            <div class="select-page__recipients-details recipients-details__item">
+              <span class="recipients-details__name">Комментарий к переводу (по желанию)</span>
+              <input class="recipients-details__input input-reset" type="text" placeholder="Не нужно">
+            </div>
+          </div>
+          <a class="recipients-details__link btn-1" href="./senders-details.html">Сверить данные</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

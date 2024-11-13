@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <main class="main">
+      <section class="select-page">
+        <div class="container">
+          <div class="select-page__head">
+            <div class="select-page__pagination">
+              <a class="select-page__back" href="./departure-select.html">Назад</a>
+              <div class="select-page__pagination-num">4/6</div>
+            </div>
+            <span class="translation-history__title text-3">
+              Сумма отправления <br>
+              <span class="translation-history__name text-1">Введите сумму</span>
+            </span>
+          </div>
+         <div class="select-page__translation">
+            <div class="select-page__translation-item">
+              <span class="select-page__translation-text">Отдаете</span>
+              <input class="select-page__translation-value input-reset" type="number" placeholder="100.000">
+              <span class="select-page__translation-departure">AMD</span>
+            </div>
+            <svg class="select-page__translation-arrow" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="13.5" cy="13.5" r="13.5" fill="#FFBD22" />
+              <path d="M12.5404 20.4596C12.7942 20.7135 13.2058 20.7135 13.4596 20.4596L17.5962 16.323C17.85 16.0692 17.85 15.6576 17.5962 15.4038C17.3424 15.15 16.9308 15.15 16.677 15.4038L13 19.0808L9.32304 15.4038C9.0692 15.15 8.65765 15.15 8.40381 15.4038C8.14996 15.6576 8.14996 16.0692 8.40381 16.323L12.5404 20.4596ZM12.35 5L12.35 20L13.65 20L13.65 5L12.35 5Z" fill="white" />
+            </svg>
+            <div class="select-page__translation-item">
+              <span class="select-page__translation-text">Получаете</span>
+              <input class="select-page__translation-value input-reset" type="number" placeholder="10.000">
+              <span class="select-page__translation-departure">USD</span>
+            </div>
+         </div>
+         <span class="select-page__translation-course">Курс обмена: 1 USD : 10 AMD</span>
+         <div class="select-page__translation-info">
+          <span class="select-page__translation-info-text">Важно!</span>
+          <span class="select-page__translation-info-p">
+            Нажимая кнопку “Сверить данные” вы соглашаетесь с условиями нашей платформы, и подтверждаете, что ознакомлены с публичной офертой. Если это не так - советуем сделать это прямо сейчас, нажав на слова, выделенные ссылкой
+          </span>
+
+         </div>
+         <a class="select-page__translation-link btn-1" href="./recipients-details.html">Сверить данные</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
